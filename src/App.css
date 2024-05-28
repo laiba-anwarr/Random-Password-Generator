@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    width: 100%;
+    background-image:url("./assets/mountain-7552616_1920.jpg");
+    background-position: top 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+#main{
+height:100vh;
+width: 100%;
+
+}
+#overlay{
+    height:100vh;
+width: 100%;
+background-color: #5D6E85;
+position: fixed;
+z-index: -1;
+filter: blur(10px);
+opacity: 0.5;
+}
+
+
+
+
